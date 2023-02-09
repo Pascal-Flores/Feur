@@ -17,3 +17,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Roboto_Slab
+      fonts:
+        - asset: assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/Roboto_Slab/RobotoSlab-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto_Slab/RobotoSlab-Light.ttf
+          weight: 300
+        
+

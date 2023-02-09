@@ -9,10 +9,21 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'Feur',
+      theme:
+          ThemeData(primarySwatch: Colors.blueGrey, fontFamily: 'Roboto_Slab'),
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Text(
+                'Enter a manga URL to get started!',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              ),
+            ],
+          ),
         ),
       ),
     );
