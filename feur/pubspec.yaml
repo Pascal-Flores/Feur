@@ -25,5 +25,8 @@ flutter:
           weight: 600
         - asset: assets/fonts/Roboto_Slab/RobotoSlab-Light.ttf
           weight: 300
+    - family : Roboto_Mono
+      fonts:
+        - asset: assets/fonts/Roboto_Mono/RobotoMono-Regular.ttf
         
 
